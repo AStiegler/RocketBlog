@@ -1,0 +1,125 @@
+.sectionMid {
+    padding-top: 6rem;
+    padding-bottom: 6.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #div1Mid {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6;
+
+        padding-left: 13.6rem;
+
+        img {
+            width: 56.9rem;
+            height: 34.2rem;
+            cursor: pointer;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+
+            color: black;
+        }
+
+        h1 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 3.6rem;
+            color: var(--purple-bg);
+
+            cursor: pointer;
+        }
+
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+
+            width: 56.9rem;
+
+            color: black;
+        }
+    }
+
+    #div2Mid {
+        display: flex;
+        align-items: center;
+
+        margin-top: -15rem;
+
+        flex-direction: column;
+        gap: 7.5rem;
+
+        padding-inline: 13.7rem;
+    }
+
+    .div2Mid1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 56.9rem;
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+
+            color: black;
+        }
+
+        h1 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 3.6rem;
+            color: var(--purple-bg);
+
+            cursor: pointer;
+        }
+
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+
+            color: black;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

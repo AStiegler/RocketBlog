@@ -1,0 +1,242 @@
+.sectionTop {
+  background: var(--purple-bg);
+  width: 100%;
+  height: 58.7rem;
+  border-bottom: 4px solid var(--green);
+}
+.sectionTop header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 6.4rem;
+}
+.sectionTop header img {
+  cursor: pointer;
+}
+.sectionTop header .div1 ul {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  list-style: none;
+}
+.sectionTop header .div1 ul li {
+  cursor: pointer;
+  width: 100%;
+  padding-left: 0.2rem;
+}
+.sectionTop header .div1 ul li:hover {
+  color: var(--button-bg);
+}
+.sectionTop header .div2 {
+  display: flex;
+  align-items: center;
+}
+.sectionTop header .div2 input {
+  align-items: center;
+  width: 23.8rem;
+  height: 4.4rem;
+  border: none;
+  border-radius: 0.4rem 0 0 0.4rem;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+  background: var(--dark-bg);
+  color: white;
+  outline: 0;
+  text-indent: 2rem;
+}
+.sectionTop header .div2 button {
+  width: 7rem;
+  height: 4.4rem;
+  border: none;
+  border-radius: 0 0.4rem 0.4rem 0;
+  background: var(--button-bg);
+}
+.sectionTop header .div2 button:hover {
+  filter: opacity(0.5);
+}
+.sectionTop .mainSection1 {
+  display: flex;
+  padding-top: 6.4rem;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.sectionTop .mainSection1 .divMain1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13.6rem;
+  width: 57rem;
+}
+.sectionTop .mainSection1 .divMain1 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  padding-bottom: 1.6rem;
+  color: var(--button-bg);
+}
+.sectionTop .mainSection1 .divMain1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  padding-bottom: 2.4rem;
+  color: #FBF6FF;
+}
+.sectionTop .mainSection1 .divMain1 a {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-decoration: none;
+  color: var(--button-bg);
+}
+.sectionTop .mainSection1 .divMain1 .rotate {
+  transition: transform 0.9s ease-in-out;
+}
+.sectionTop .mainSection1 .divMain1 .rotate:hover {
+  transform: rotateX(360deg);
+}
+.sectionTop .mainSection1 img {
+  padding-right: 13.6rem;
+}
+
+.sectionMid {
+  padding-top: 6rem;
+  padding-bottom: 6.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionMid #div1Mid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6;
+  padding-left: 13.6rem;
+}
+.sectionMid #div1Mid img {
+  width: 56.9rem;
+  height: 34.2rem;
+  cursor: pointer;
+}
+.sectionMid #div1Mid p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: black;
+}
+.sectionMid #div1Mid h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--purple-bg);
+  cursor: pointer;
+}
+.sectionMid #div1Mid span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 56.9rem;
+  color: black;
+}
+.sectionMid #div2Mid {
+  display: flex;
+  align-items: center;
+  margin-top: -15rem;
+  flex-direction: column;
+  gap: 7.5rem;
+  padding-inline: 13.7rem;
+}
+.sectionMid .div2Mid1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 56.9rem;
+}
+.sectionMid .div2Mid1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: black;
+}
+.sectionMid .div2Mid1 h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--purple-bg);
+  cursor: pointer;
+}
+.sectionMid .div2Mid1 span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: black;
+}
+
+.sectionBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+.sectionBottom .geralBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+}
+.sectionBottom div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8;
+  width: 37rem;
+  cursor: pointer;
+}
+.sectionBottom div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: black;
+}
+.sectionBottom div h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #290742;
+}
+.sectionBottom div span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */
